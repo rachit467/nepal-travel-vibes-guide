@@ -61,7 +61,40 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				blog: {
+					primary: '#6E59A5',
+					secondary: '#9b87f5',
+					accent: '#8B5CF6',
+					muted: '#F1F0FB',
+					dark: '#1A1F2C',
+					light: '#D6BCFA'
 				}
+			},
+			typography: {
+				DEFAULT: {
+					css: {
+						color: 'hsl(var(--foreground))',
+						a: {
+							color: 'hsl(var(--primary))',
+							'&:hover': {
+								color: 'hsl(var(--primary))',
+							},
+						},
+						h1: {
+							color: 'hsl(var(--foreground))',
+						},
+						h2: {
+							color: 'hsl(var(--foreground))',
+						},
+						h3: {
+							color: 'hsl(var(--foreground))',
+						},
+						h4: {
+							color: 'hsl(var(--foreground))',
+						},
+					},
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -92,5 +125,5 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
