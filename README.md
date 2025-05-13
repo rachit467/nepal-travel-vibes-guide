@@ -1,73 +1,29 @@
-# Welcome to your Lovable project
+# 🇳🇵 Nepal Travel Vibes Guide
 
-## Project info
+Welcome to my personal travel guide project for Nepal! This application is designed to help travelers discover the beauty of Nepal, offering curated recommendations, cultural insights, and travel tips.
 
-**URL**: https://lovable.dev/projects/4f59593e-e0be-4637-8845-5af42b185369
+## ✨ Features
 
-## How can I edit this code?
+- 🗺️ Interactive map highlighting must-visit destinations
+- 📸 Photo gallery showcasing Nepal's landscapes and heritage
+- 🧭 Personalized itineraries based on user preferences
+- 🌐 Multilingual support for international travelers
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+- Frontend: [React.js](https://reactjs.org/)
+- Backend: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)
+- Database: [MongoDB](https://www.mongodb.com/)
+- APIs: [Google Maps API](https://developers.google.com/maps), [Unsplash API](https://unsplash.com/developers)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4f59593e-e0be-4637-8845-5af42b185369) and start prompting.
+## 🧠 Inspiration & Development
 
-Changes made via Lovable will be committed automatically to this repo.
+This project began as an exploration into AI-assisted development. Utilizing tools like Lovable AI, I generated initial code structures and content. However, I extensively customized and expanded upon these foundations to create a unique and personalized application that reflects my vision and understanding of Nepal's travel landscape.
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+To run the project locally:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4f59593e-e0be-4637-8845-5af42b185369) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rachit467/nepal-travel-vibes-guide.git
