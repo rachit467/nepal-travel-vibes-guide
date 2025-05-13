@@ -14,9 +14,9 @@ const About = () => {
         <section className="py-12 md:py-20 bg-muted">
           <div className="container">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-3xl md:text-5xl font-bold mb-6">About InsightfulBlog</h1>
+              <h1 className="text-3xl md:text-5xl font-bold mb-6">About RachitBlog</h1>
               <p className="text-muted-foreground text-lg mb-8">
-                Sharing knowledge and insights through thoughtful, well-researched content.
+                We intend to add more related articles that share knowledge and insights through thoughtful, well-researched content.
               </p>
             </div>
           </div>
@@ -29,10 +29,10 @@ const About = () => {
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Story</h2>
                 <p className="text-muted-foreground mb-4">
-                  InsightfulBlog began in 2023 with a simple mission: to create a space where curious minds could explore ideas across a variety of topics. We believe that knowledge is most valuable when it's accessible, engaging, and actionable.
+                  RachitBlog began in 2025 with a simple mission: to create a space where curious minds could explore ideas across a variety of topics. We believe that knowledge is most valuable when it's accessible, engaging, and actionable.
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  What started as a small passion project has grown into a community of readers and contributors united by a love of learning and a desire to understand the world more deeply.
+                  What started as a small passion project will grown into a community of readers and contributors united by a love of learning and a desire to understand the world more deeply.
                 </p>
                 <p className="text-muted-foreground">
                   Today, we publish articles across technology, lifestyle, health, travel, and finance—bringing together diverse perspectives and research-backed insights.
@@ -40,8 +40,8 @@ const About = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" 
-                  alt="Team collaboration" 
+                  src="images\thumbnailrachitblog.png" 
+                  alt="Rachitblog Logo" 
                   className="rounded-lg shadow-lg"
                 />
                 <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-blog-primary rounded-lg hidden md:block"></div>
@@ -105,22 +105,23 @@ const About = () => {
         {/* Team */}
         <section className="py-12 md:py-16">
           <div className="container">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Meet Our Team</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">About me</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" 
-                  alt="Michael Wong" 
+                  src="images\aboutmeimg.png" 
+                  alt="Rachit Tachamo" 
                   className="w-32 h-32 rounded-full mx-auto object-cover mb-4"
                 />
-                <h3 className="font-semibold text-lg">Dr. Michael Wong</h3>
-                <p className="text-blog-primary">Editor-in-Chief</p>
-                <p className="text-muted-foreground text-sm mt-2">
-                  Clinical psychologist with a passion for making mental health insights accessible.
+                <h3 className="font-semibold text-lg">Rachit Tachamo</h3>
+                <p className="text-blog-primary">Owner of this project</p>
+                <p className="text-muted-foreground text-sm mt- 2">
+                 Skilled and motivated programmer with a strong foundation in coding, software development, and collaborative problem solving.
+                Passionate about building innovative solutions and working closely with others to achieve common goals.
                 </p>
               </div>
               
-              <div className="text-center">
+              {/* <div className="text-center">
                 <img 
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330" 
                   alt="Sarah Chen" 
@@ -157,7 +158,7 @@ const About = () => {
                 <p className="text-muted-foreground text-sm mt-2">
                   Photographer and writer who explores and documents hidden treasures around the world.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

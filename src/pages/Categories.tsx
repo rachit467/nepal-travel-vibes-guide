@@ -15,7 +15,7 @@ const Categories = () => {
             <div className="max-w-3xl mx-auto text-center mb-12">
               <h1 className="text-3xl md:text-4xl font-bold mb-4">Categories</h1>
               <p className="text-muted-foreground">
-                Explore our content by topics that interest you most. Each category offers curated articles, guides, and insights.
+                Explore our content by topics that interest you most. Each category offers articles, guides, and insights.
               </p>
             </div>
             
