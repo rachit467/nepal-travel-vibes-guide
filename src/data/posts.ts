@@ -32,7 +32,7 @@ export const posts: Post[] = [
       <h2>Preparing for Your Trek</h2>
       <p>Proper preparation is key. Ensure you have the right gear, are physically fit, and understand the altitude challenges. Hiring a local guide can enhance your experience and safety.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    coverImage: "/images/20141119-Annapurna-Sunrise.jpg",
     date: "April 15, 2025",
     category: "Trekking & Adventure",
     featured: true,
@@ -64,7 +64,7 @@ export const posts: Post[] = [
     category: "Cultural Experiences",
     author: {
       name: "Maya Tamang",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+      avatar: "/images/swyambu.jpeg",
       bio: "Cultural anthropologist and travel writer specializing in Nepalese traditions."
     },
     tags: ["Culture", "Kathmandu", "Travel", "Festivals"]
@@ -85,7 +85,7 @@ export const posts: Post[] = [
       <h2>Local Communities</h2>
       <p>Interact with the indigenous Tharu community and learn about their traditional way of life closely connected to the national park.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1626192598217-7df1cd9fa814",
+    coverImage: "/images/rhino.jpeg",
     date: "April 5, 2025",
     category: "Wildlife & Nature",
     author: {
@@ -114,7 +114,7 @@ export const posts: Post[] = [
       <h2>Where to Stay</h2>
       <p>Lakeside Pokhara offers a range of accommodations from budget hostels to luxury hotels. Most places provide stunning views and easy access to restaurants, shops, and the lake.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    coverImage: "/images/pokhara city.jpg",
     date: "April 2, 2025",
     category: "Trekking & Adventure",
     author: {
@@ -143,7 +143,7 @@ export const posts: Post[] = [
       <h2>Where to Eat</h2>
       <p>For authentic local food, look beyond tourist restaurants and find small local eateries called "bhattis." In Kathmandu, Thamel has numerous options, while Pokhara's Lakeside offers restaurants with beautiful views to complement your meal.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+    coverImage: "/images/nepalicusine.jpeg",
     date: "March 28, 2025",
     category: "Local Cuisine",
     author: {
@@ -172,7 +172,7 @@ export const posts: Post[] = [
       <h2>Planning Your Visit</h2>
       <p>Lumbini is about 300 km from Kathmandu, with the nearest airport at Bhairahawa. The best time to visit is from October to May when the weather is pleasant. Accommodations range from simple guesthouses to comfortable hotels.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1426604966848-d7adac402bff",
+    coverImage: "/images/lumbini.jpg",
     date: "March 20, 2025",
     category: "Cultural Experiences",
     author: {
