@@ -4,21 +4,21 @@ export const categories = [
     name: "Trekking & Adventure",
     description: "Explore Nepal's most breathtaking hiking trails and outdoor experiences",
     slug: "trekking-adventure",
-    image: "/images/trekking.jpeg"
+    image: "/images/trekkinghills.webp"
   },
   {
     id: "2", 
     name: "Cultural Experiences",
     description: "Discover the rich traditions, festivals, and heritage of Nepal",
     slug: "cultural-experiences",
-    image: "/images/bisket-jatra-bhaktapur.jpg"
+    image: "/images/bisketjatrarath.jpg"
   },
   {
     id: "3",
     name: "Local Cuisine",
     description: "Savor the flavors of Nepalese food and culinary traditions",
     slug: "local-cuisine",
-    image: "/images/newarikhaja.jpeg"
+    image: "/images/Newari-Khaja-Set-2.jpg"
   },
   {
     id: "4",
