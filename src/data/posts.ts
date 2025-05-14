@@ -59,7 +59,7 @@ export const posts: Post[] = [
       <h2>Cultural Festivals</h2>
       <p>Time your visit during festivals like Dashain or Tihar to experience the most vibrant celebrations of Nepalese culture.</p>
     `,
-    coverImage: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+    coverImage: "/images/swyambu.jpeg",
     date: "April 10, 2025",
     category: "Cultural Experiences",
     author: {

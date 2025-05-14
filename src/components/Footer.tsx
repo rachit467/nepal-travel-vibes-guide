@@ -40,22 +40,22 @@ const Footer = () => {
           <div className="space-y-3">
             <h4 className="font-medium">Categories</h4>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <Link to="/categories/technology" className="text-muted-foreground hover:text-blog-primary transition-colors">
                   Technology
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/categories/lifestyle" className="text-muted-foreground hover:text-blog-primary transition-colors">
                   Lifestyle
                 </Link>
               </li>
               <li>
-                <Link to="/categories/health" className="text-muted-foreground hover:text-blog-primary transition-colors">
+                {/* <Link to="/categories/health" className="text-muted-foreground hover:text-blog-primary transition-colors">
                   Health & Wellness
                 </Link>
               </li>
-              <li>
+              <li> */}
                 <Link to="/categories/travel" className="text-muted-foreground hover:text-blog-primary transition-colors">
                   Travel
                 </Link>
@@ -67,28 +67,28 @@ const Footer = () => {
             <h4 className="font-medium">Connect</h4>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/rachit.tachamo" 
                 className="text-muted-foreground hover:text-blog-primary transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a 
+              {/* <a 
                 href="#" 
                 className="text-muted-foreground hover:text-blog-primary transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
-              </a>
+              </a> */}
               <a 
-                href="#" 
+                href="https://www.instagram.com/rachit_tachamo/" 
                 className="text-muted-foreground hover:text-blog-primary transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:contact@insightfulblog.com" 
+                href="mailto:tachamorachit7@gmail.com" 
                 className="text-muted-foreground hover:text-blog-primary transition-colors"
                 aria-label="Email"
               >
@@ -113,7 +113,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-6 text-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} InsightfulBlog. All rights reserved.
+            © {currentYear} RachitBlog. All rights reserved.
           </p>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link to="/" className="text-2xl font-bold text-blog-primary">
-            Insightful<span className="text-blog-accent">Blog</span>
+            Rachit<span className="text-blog-accent">Blog</span>
           </Link>
         </div>
         
